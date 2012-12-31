@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
 *
 * qi [Deutsch — Du]
