@@ -41,7 +41,7 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 //
 // Some characters you may want to copy&paste:
-// ’ » “ ” …
+// ’ » „ “ ” …
 //
 
 $lang = array_merge($lang, array(
@@ -72,15 +72,15 @@ $lang = array_merge($lang, array(
 	'BOARDS_DELETED_TITLE'	=> 'Boards gelöscht',
 	'BOARDS_DIR'			=> 'Boardverzeichnis',
 	'BOARDS_DIR_EXPLAIN'	=> 'Das Verzeichnis, in dem Ihre Boards erstellt werden. PHP benötigt Schreibrechte in diesem Verzeichnis.',
-	'BOARDS_DIR_MISSING'	=> 'Das Verzeichnis %s existiert nicht oder ist nicht beschreibbar.',
+	'BOARDS_DIR_MISSING'	=> 'Das Verzeichnis „%s“ existiert nicht oder ist nicht beschreibbar.',
 	'BOARDS_LIST'			=> 'Liste der Boards',
 	'BOARDS_NOT_WRITABLE'	=> 'Das Boardverzeichnis ist nicht beschreibbar.',
 	'BOARDS_URL'			=> 'Board-URL-Präfix',
 	'BOARDS_URL_EXPLAIN'	=> 'URL-Präfix zum Boardverzeichnis. Wenn Sie ein absolutes Verzeichnis als Boardverzeichnis angegeben hast, kann es sein, dass Sie hier eine Domain und/oder Pfad angeben müssen, der zum Boardverzeichnis führt. Wenn das Boardverzeichnis relativ ist, können Sie es einfach kopieren.',
 
 	'CACHE_DIR'				=> 'Cache-Verzeichnis',
-	'CACHE_DIR_EXPLAIN'		=> 'Im Cache-Verzeichnis legt quickinstall einige Dateien ab. PHP benötigt Schreibrechte in diesem Verzeichnis.',
-	'CACHE_DIR_MISSING'		=> 'Das Verzeichnis %s existiert nicht oder ist nicht beschreibbar.',
+	'CACHE_DIR_EXPLAIN'		=> 'Im Cache-Verzeichnis legt QuickInstall einige Dateien ab. PHP benötigt Schreibrechte in diesem Verzeichnis.',
+	'CACHE_DIR_MISSING'		=> 'Das Verzeichnis „%s“ existiert nicht oder ist nicht beschreibbar.',
 	'CACHE_NOT_WRITABLE'	=> 'Das Cacheverzeichnis ist nicht beschreibbar.',
 	'CANNOT_DELETE_LAST_PROFILE'	=> 'Sie können das letzte Profil nicht löschen.',
 	'CHANGELOG'				=> 'Änderungshistorie',
@@ -88,7 +88,7 @@ $lang = array_merge($lang, array(
 	'CHUNK_POST'			=> 'Paketgröße für Beiträge',
 	'CHUNK_POST_EXPLAIN'	=> 'Anzahl der Beiträge pro Datenbank-Anfrage.',
 	'CHUNK_SETTINGS'		=> 'Größe der Füllpakete',
-	'CHUNK_SETTINGS_EXPLAIN'	=> 'QI versucht die Anzahl der Datenbank-Anfragen zu reduzieren, in dem Beiträge, Themen und Benutzer in Paketen gruppiert werden. Die Paketgröße beeinflusst die Dauer beim Befüllen des Boards. Es gibt keine perfekte Einstellung, die für alle passt. Wenn Sie mehrere Boards befüllen, können Sie mit der Einstellung herum experimentieren. Zu große Pakete verbrauchen zu viel Arbeitsspeicher und zu kleine Belasten die Datenbank zu häufig. Ein Kompromiss ist die beste Einstellung.',
+	'CHUNK_SETTINGS_EXPLAIN'	=> 'QuickInstall versucht die Anzahl der Datenbank-Anfragen zu reduzieren, in dem Beiträge, Themen und Benutzer in Paketen gruppiert werden. Die Paketgröße beeinflusst die Dauer beim Befüllen des Boards. Es gibt keine perfekte Einstellung, die für alle passt. Wenn Sie mehrere Boards befüllen, können Sie mit der Einstellung herum experimentieren. Zu große Pakete verbrauchen zu viel Arbeitsspeicher und zu kleine Belasten die Datenbank zu häufig. Ein Kompromiss ist die beste Einstellung.',
 	'CHUNK_TOPIC'			=> 'Paketgröße für Themen',
 	'CHUNK_TOPIC_EXPLAIN'	=> 'Anzahl der Themen pro Datenbank-Anfrage.',
 	'CHUNK_USER'			=> 'Paketgröße für Benutzer',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'CONFIG_EMPTY'			=> 'Das Konfigurations-Array war leer. Das sollte als Fehler im Bugtracker erfasst werden.',
 	'CONFIG_IS_DISPLAYED'	=> 'Die Konfiguration wird unten angezeigt. Du kannst versuchen die Daten manuell in einer Datei zu speichern.<br />Stelle dabei sicher, dass der Dateiname auf „.cfg“ endet: zum Beispiel: „settings/main.cfg“.',
 	'CONFIG_NOT_WRITABLE'	=> 'Das „settings/“ Verzeichnis ist nicht beschreibbar.',
-	'CONFIG_NOT_WRITTEN'	=> 'Die Datei qi_config.cfg konnte nicht geschrieben werden.',
+	'CONFIG_NOT_WRITTEN'	=> 'Die Datei „qi_config.cfg“ konnte nicht geschrieben werden.',
 	'CONFIG_OPTIONS'		=> 'Konfigurations-Optionen',
 	'CONFIG_SETTINGS'		=> 'Board-Konfigurations-Einstellungen',
 	'CONFIG_SETTINGS_EXPLAIN'	=> 'Die Einstellungen hier sind Konfigurations-Einstellungen für Ihr phpBB Board. Diese Einstellungen können Sie nach der Erstellung im Board ändern.',
@@ -112,7 +112,7 @@ $lang = array_merge($lang, array(
 	'CREATE_MOD'			=> 'Moderator erstellen',
 	'CREATE_MOD_EXPLAIN'	=> 'Wenn „Ja“ ausgewählt wird, so wird tester_1 oder tester_2 (sofern auch ein Administrator erstellt wurde) als globaler Moderator angelegt.',
 
-	'DB_EXISTS'				=> 'Die Datenbank %s existiert bereits.',
+	'DB_EXISTS'				=> 'Die Datenbank „%s“ existiert bereits.',
 	'DB_PREFIX'				=> 'Datenbankpräfix',
 	'DB_PREFIX_EXPLAIN'		=> 'Dieser Präfix wird allen Datenbanken vorangestellt, damit keine Datenbanken überschrieben werden, die nicht von QuickInstall angelegt wurden.',
 	'DB_SETTINGS'			=> 'Datenbank-Einstellungen',
@@ -135,7 +135,7 @@ $lang = array_merge($lang, array(
 	'DELETE_FILES_IF_EXIST_EXPLAIN'	=> 'Soll die Einstellung „Dateien löschen, falls sie existieren“ standardmässig aktiviert sein, wenn ein Board erstellt wird?',
 	'DELETE_PROFILE'		=> 'Profil löschen',
 	'DELETE_PROFILE_EXPLAIN'	=> 'Das ausgewählte Profil löschen.<br /><strong>Anmerkung: Dieser Schritt kann nicht rückgängig gemacht werden.</strong>',
-	'DIR_EXISTS'			=> 'Das Verzeichnis %s existiert bereits.',
+	'DIR_EXISTS'			=> 'Das Verzeichnis „%s“ existiert bereits.',
 	'DIR_URL_SETTINGS'		=> 'Verzeichnis- und URL-Einstellungen',
 	'DISABLED'				=> 'Deaktiviert',
 	'DROP_DB_IF_EXISTS'		=> 'Datenbank löschen, falls sie existiert',
@@ -152,12 +152,12 @@ $lang = array_merge($lang, array(
 	'ERROR_DEL_FILES'		=> 'Die folgenden Dateien konnten nicht gelöscht werden',
 
 	'FORGOT_THIS'				=> 'Bitte ausfüllen',//'SIE HABEN DAS HIER VERGESSEN!', // Should be upper case.
-	'FUNCTIONS_MODS_MISSING'	=> 'includes/functions_mods.php nicht gefunden.',
+	'FUNCTIONS_MODS_MISSING'	=> '„includes/functions_mods.php“ nicht gefunden.',
 
 	'GENERAL_ERROR'			=> 'Allgemeiner Fehler',
 	'GO'					=> 'Los',
 	'GRANT_PERMISSIONS'		=> 'Zusätzliche Rechte vergeben',
-	'GRANT_PERMISSIONS_EXPLAIN'	=> '(Z.B. 0060 für Gruppen Schreib- und Leserechte)',
+	'GRANT_PERMISSIONS_EXPLAIN'	=> '(z.B. 0060 für Gruppen Schreib- und Leserechte)',
 
 	'IF_EMPTY_EXPLAIN'		=> 'Wenn Sie diese Option leer lassen, wird der Standardwert der Einstellung genutzt.',
 	'IF_LEAVE_EMPTY'		=> 'Wenn Sie diese Option leer lassen, müssen Sie es beim Erstellen eines Boards angeben.',
@@ -174,7 +174,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_INSTALLED_QI'	=> '<strong>Installiert durch phpBB Quickinstall %s</strong>',
 
 	'MAKE_WRITABLE'			=> 'Dateien für jeden beschreibbar machen',
-	'MAKE_WRITABLE_EXPLAIN'	=> 'Legt fest, dass Dateien, die config.php und die Verzeichnisse standardmäßig von jedem beschrieben werden können.',
+	'MAKE_WRITABLE_EXPLAIN'	=> 'Legt fest, dass Dateien, die „config.php“ und die Verzeichnisse standardmäßig von jedem beschrieben werden können.',
 	'MAKE_WRITABLE_BOARD'	=> 'Dateien beschreibbar machen',
 	'MAKE_WRITABLE_BOARD_EXPLAIN'	=> '(Entspricht der Vergabe von 0666)',
 	'MANAGE_BOARDS'			=> 'Boards verwalten',
@@ -185,7 +185,6 @@ $lang = array_merge($lang, array(
 	'NEED_CONVERT'			=> 'Ihre Konfiguration muss auf das neue, profilbasiertem System aktualisiert werden. Stellen Sie sicher, dass das „settings/“ Verzeichnis existiert und für den Webserver beschreibbar ist. Klicken danach Sie auf „Absenden“.',
 	'NEED_EMAIL_DOMAIN'		=> 'Es muss eine E-Mail-Domain angegeben sein, damit die Test-Benutzer angelegt werden können',
 	'NEED_WRITABLE'			=> 'Die Verzeichnisse „cache“ und „boards“ müssen die ganze Zeit für QuickInstall beschreibbar sein.<br />Das „settings“ Verzeichnis muss im Stammverzeichnis von QuickInstall sein und ebenfalls beschreibbar sein.',
-	'NEED_WRITABLE'			=> 'Für QuickInstall müssen die Board- und Cacheverzeichnisse jederzeit beschreibbar sein.<br />Die qi_config.php muss nur während der Installation von QuickInstall beschreibbar sein.',
 	'NO'					=> 'Nein',
 	'NO_ALT_ENV'			=> 'Die angegebene alternative Umgebung existiert nicht.',
 	'NO_AUTOMOD'			=> '<strong>AutoMOD wurde nicht im „source“ Verzeichnis gefunden.</strong><br />Sie müssen AutoMOD herunterladen und den Inhalt des „root“ Verzeichnisses nach „sources/automod“ kopieren. Wenn Sie AutoMOD 1.0.0 benutzen, ist es das Verzeichnis „upload“, das kopiert werden muss.',
@@ -211,14 +210,14 @@ $lang = array_merge($lang, array(
 
 	'OFF'					=> 'Aus',
 	'ON'					=> 'An',
-	'ONLY_LOCAL'			=> '<strong>Willkommen bei QuickInstall (QI)</strong>, ein Tool um phpBB auf die Schnelle zum Testen zu installieren.<br /><br />Einige Standardwerte wurden unten eingetragen. Das einzige was Sie auf jeden Fall ändern müssen sind „Datenbank-Benutzername“ und „Datenbank-Passwort“, wenn diese in QI gespeichert werden sollen. Aber es ist eine gute Idee auch die restlichen Einstellungen kurz anzusehen und zu überprüfen.<br />Stellen Sie sicher, dass die Verzeichnisse „boards“, „cache“ und „settings“ existieren und vom Webserver beschrieben werden können.<br /><br />Wenn Sie die Einstellungen und Verzeichnisse überprüft haben, drücken Sie auf „Absenden“ und die Einstellungen werden als Profil „default“ gespeichert. Wenn Sie das Profil unter einem anderem Namen speichern wollen, gib diesen im Feld „Neues Profil speichern“ ein.<div class="errorbox"><strong>Bitte beachten</strong>: QuickInstall ist nur für die lokale Verwendung gedacht und sollte nicht auf einem Webserver verwendet werden, der aus dem Internet zugänglich ist. <strong>Wenn Sie QI auf einem öffentlichen Webserver benutzen, tun Sie das auf Ihre eigene Gefahr.</strong> Es gibt keine Hilfestellung für die Verwendung auf öffentlichen Webservern.</div>',
+	'ONLY_LOCAL'			=> '<strong>Willkommen bei QuickInstall (QI)</strong>, ein Tool um phpBB auf die Schnelle zum Testen zu installieren.<br /><br />Einige Standardwerte wurden unten eingetragen. Das einzige was Sie auf jeden Fall ändern müssen sind „Datenbank-Benutzername“ und „Datenbank-Passwort“, wenn diese in QuickInstall gespeichert werden sollen. Aber es ist eine gute Idee auch die restlichen Einstellungen kurz anzusehen und zu überprüfen.<br />Stellen Sie sicher, dass die Verzeichnisse „boards“, „cache“ und „settings“ existieren und vom Webserver beschrieben werden können.<br /><br />Wenn Sie die Einstellungen und Verzeichnisse überprüft haben, drücken Sie auf „Absenden“ und die Einstellungen werden als Profil „default“ gespeichert. Wenn Sie das Profil unter einem anderem Namen speichern wollen, gib diesen im Feld „Neues Profil speichern“ ein.<div class="errorbox"><strong>Bitte beachten</strong>: QuickInstall ist nur für die lokale Verwendung gedacht und sollte nicht auf einem Webserver verwendet werden, der aus dem Internet zugänglich ist. <strong>Wenn Sie QuickInstall auf einem öffentlichen Webserver benutzen, tun Sie das auf Ihre eigene Gefahr.</strong> Es gibt keine Hilfestellung für die Verwendung auf öffentlichen Webservern.</div>',
 	'OPTIONS'				=> 'Optionen',
 	'OPTIONS_ADVANCED'		=> 'Erweiterte Optionen',
 	'OTHER_CONFIG'			=> 'Weitere Board-Konfigurations-Einstellungen',
 	'OTHER_CONFIG_EXPLAIN'	=> 'Diese Werte werden in der Konfigurations-Tabelle aktualisiert oder neu hinzugefügt, falls sie bisher nicht existieren. Also achten Sie auf Tippfehler. Diese Werte können auch geändert werden wenn das Board erstellt wird.<br />Eine Konfigurations-Einstellung pro Zeile, getrennt mit Semikola „;“. Name;Einstellung;Dynamisch, wenn die Einstellung nicht dynamisch ist, wird der dynamisch-Teil nicht benötigt. Zeilen die mit einem # anfangen werden als Kommentare interpretiert und nicht in die Datenbank eingefügt. Beispiel:<br />load_tplcompile;1;1<br />session_length;999999<br /># Dies ist ein Kommentar ...',
 	'OTHER_SETTINGS'		=> 'Weitere Einstellungen',
 
-	'PLAIN_TEXT'			=> '<strong>Warnung</strong>: QI speichert Passwörter und Benutzernamen im Klartext.',
+	'PLAIN_TEXT'			=> '<strong>Warnung</strong>: QuickInstall speichert Passwörter und Benutzernamen im Klartext.',
 	'POPULATE'				=> 'Board befüllen',
 	'POPULATE_EXPLAIN'		=> 'Füllt das Board mit der unten festgelegten Zahl an Benutzern, Foren, Themen und Beiträgen. Beachten Sie, dass die Erstellung von Boards umso länger dauert, je mehr Benutzer, Foren, Themen und Beiträge Sie erstellen lassen.<br />All diese Einstellungen können geändert werden, wenn neue Boards erstellt werden.',
 	'POPULATE_MAIN_EXPLAIN'	=> 'Benutzer: tester_<samp>x</samp>, Passwort: 123456',
@@ -233,7 +232,7 @@ $lang = array_merge($lang, array(
 	'QI_LANG'				=> 'Sprache für QuickInstall',
 	'QI_LANG_EXPLAIN'		=> 'Das Sprachpaket muss in „language/“ Verzeichnis sein, um angezeigt zu werden.',
 	'QI_MAIN'				=> 'Hauptseite',
-	'QI_MAIN_ABOUT'			=> 'Hier können Sie ein neues Board installieren.<br /><br />„Name der Datenbank und des Verzeichnisses des Boards“ ist das einzige Feld, das Sie ausfüllen müssen, die anderen Felder werden mit den Standardwerten der <em>includes/default_settings.php</em> befüllt.<br /><br />Klicken Sie auf „Erweiterte Optionen“, um weitere Optionen anzuzeigen.',
+	'QI_MAIN_ABOUT'			=> 'Hier können Sie ein neues Board installieren.<br /><br />„Name der Datenbank und des Verzeichnisses des Boards“ ist das einzige Feld, das Sie ausfüllen müssen, die anderen Felder werden mit den Standardwerten der „includes/default_settings.php“ befüllt.<br /><br />Klicken Sie auf „Erweiterte Optionen“, um weitere Optionen anzuzeigen.',
 	'QI_MANAGE'				=> 'Boards verwalten',
 	'QI_MANAGE_ABOUT'		=> 'o_O',
 	'QI_TZ'					=> 'Zeitzone',
@@ -260,7 +259,7 @@ $lang = array_merge($lang, array(
 	'SERVER_NAME'			=> 'Servername',
 	'SERVER_NAME_EXPLAIN'	=> 'Dies sollte normalerweise localhost sein, da QuickInstall <strong>nicht</strong> für öffentlich zugängliche Webserver gedacht ist.',
 	'SERVER_PORT'			=> 'Serverport',
-	'SERVER_PORT_EXPLAIN'	=> 'Meist 80.',
+	'SERVER_PORT_EXPLAIN'	=> 'Meist „80“.',
 	'SHOW_CONFIRM'			=> 'Löschen bestätigen',
 	'SHOW_CONFIRM_EXPLAIN'	=> 'Beim Löschen von Boards und Profilen eine Bestätigung abgefragen.',
 	'SITE_DESC'				=> 'Beschreibung des Boards',
