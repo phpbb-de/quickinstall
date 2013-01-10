@@ -46,7 +46,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ABOUT_QUICKINSTALL'	=> 'Über phpBB3 QuickInstall',
-	'ABOUT_SECTIONS'		=> 'Über-Abschnitte',
+	'ABOUT_SECTIONS'		=> 'Über QuickInstall',
 	'ADMIN_EMAIL'			=> 'E-Mail-Adresse des Administrators',
 	'ADMIN_EMAIL_EXPLAIN'	=> 'E-Mail-Adresse des Administrators, die beim Erstellen der Boards verwendet wird',
 	'ADMIN_NAME'			=> 'Benutzername des Administrators',
