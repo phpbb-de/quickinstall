@@ -108,9 +108,9 @@ $lang = array_merge($lang, array(
 	'COOKIE_SECURE'			=> 'Sicherer Server',
 	'COOKIE_SECURE_EXPLAIN'	=> 'Falls der Server über SSL läuft, muss diese Option aktiviert werden. Wenn das nicht der Fall ist, deaktiviert lassen. Wird diese Option aktiviert, obwohl der Server nicht über SSL aufgerufen werden kann, können Fehler bei der Weiterleitung auftreten.',
 	'CREATE_ADMIN'			=> 'Administrator erstellen',
-	'CREATE_ADMIN_EXPLAIN'	=> 'Bei Auswahl von „Ja“, wird der Benutzer tester_1 als Administrator ohne Gründer-Status angelegt.',
+	'CREATE_ADMIN_EXPLAIN'	=> 'Bei Auswahl von „Ja“ wird der Benutzer tester_1 als Administrator ohne Gründer-Status angelegt.',
 	'CREATE_MOD'			=> 'Moderator erstellen',
-	'CREATE_MOD_EXPLAIN'	=> 'Bei Auswahl von „Ja“, wird der Benutzer tester_1 oder tester_2 (abhängig davon, ob auch ein Administrator erstellt wurde) als globaler Moderator angelegt.',
+	'CREATE_MOD_EXPLAIN'	=> 'Bei Auswahl von „Ja“ wird der Benutzer tester_1 oder tester_2 (abhängig davon, ob auch ein Administrator erstellt wurde) als globaler Moderator angelegt.',
 
 	'DB_EXISTS'				=> 'Die Datenbank „%s“ existiert bereits.',
 	'DB_PREFIX'				=> 'Datenbank-Präfix',
@@ -247,7 +247,7 @@ $lang = array_merge($lang, array(
 	'RETURN_MANAGE'			=> 'Zurück zu „Boards verwalten“',
 
 	'SAVE_PROFILE'			=> 'Neues Profil speichern',
-	'SAVE_PROFILE_EXPLAIN'	=> 'Den Namen für dieses Einstellungsprofil angeben. Nur A-Z, a-z, 0-9, „-“ (Minuszeichen), „_“ (Unterstrich) und „.“ (Punkt) sind erlaubt.<br /><strong>Anmerkung: Wenn bereits ein Profil mit diesem Namen existiert, wird es überschrieben.</strong>',
+	'SAVE_PROFILE_EXPLAIN'	=> 'Gib den Namen für dieses Einstellungsprofil ein. Nur A-Z, a-z, 0-9, „-“ (Minuszeichen), „_“ (Unterstrich) und „.“ (Punkt) sind erlaubt.<br /><strong>Anmerkung: Wenn bereits ein Profil mit diesem Namen existiert, wird es überschrieben.</strong>',
 	'SAVE_RESTORE'			=> 'Sichern/Wiederherstellen',
 	'SELECT'				=> 'Auswählen',
 	'SETTINGS'				=> 'Einstellungen',
