@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ABOUT_QUICKINSTALL'	=> 'Über phpBB3 QuickInstall',
 	'ABOUT_SECTIONS'		=> 'Über QuickInstall',
 	'ADMIN_EMAIL'			=> 'E-Mail-Adresse des Administrators',
-	'ADMIN_EMAIL_EXPLAIN'	=> 'E-Mail-Adresse des Administrators, die beim Erstellen der verwendet wird',
+	'ADMIN_EMAIL_EXPLAIN'	=> 'E-Mail-Adresse des Administrators, die beim Erstellen der Boards verwendet wird',
 	'ADMIN_NAME'			=> 'Benutzername des Administrators',
 	'ADMIN_NAME_EXPLAIN'	=> 'Der Standard-Benutzername für den Administrator der Boards. Dieser kann beim Erstellen neuer Boards geändert werden.',
 	'ADMIN_PASS'			=> 'Passwort des Administrators',
@@ -302,7 +302,7 @@ $lang = array_merge($lang, array(
 	'YES'					=> 'Ja',
 
 	'WHAT'					=> 'Was?',
-	'WHAT_EXPLAIN'			=> 'phpBB3 QuickInstall ist ein Tool, um phpBB auf die schnelle und einfache Weise zu installieren. Völlig überraschend... ;-)',
+	'WHAT_EXPLAIN'			=> 'phpBB3 QuickInstall ist ein Tool, um phpBB auf schnelle und einfache Weise zu installieren. Völlig überraschend... ;-)',
 	'WHO_ELSE'				=> 'Wer sonst noch?',
 	'WHO_ELSE_EXPLAIN'		=> '<ul><li>' . implode('</li><li>', array(
 		'Besonderer Dank gilt dem phpBB-Team, insbesondere dem Entwickler-Team. Dafür, dass sie ein so schönes Stück Software erstellt haben.',
