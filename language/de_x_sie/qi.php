@@ -151,7 +151,7 @@ $lang = array_merge($lang, array(
 	'ERROR_DEL_BOARDS'		=> 'Die folgenden Boards konnten nicht gelöscht werden',
 	'ERROR_DEL_FILES'		=> 'Die folgenden Dateien konnten nicht gelöscht werden',
 
-	'FORGOT_THIS'				=> 'Bitte ausfüllen',//'SIE HABEN DAS HIER VERGESSEN!', // Should be upper case.
+	'FORGOT_THIS'				=> 'Bitte ausfüllen',
 	'FUNCTIONS_MODS_MISSING'	=> '„includes/functions_mods.php“ nicht gefunden.',
 
 	'GENERAL_ERROR'			=> 'Allgemeiner Fehler',
